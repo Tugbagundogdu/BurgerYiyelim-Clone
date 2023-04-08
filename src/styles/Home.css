@@ -1,0 +1,44 @@
+.home{
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.homeButton{
+width: auto;
+margin-left: 50px;
+margin-bottom: 50px;
+}
+
+.homeButton button {
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 650px) {
+    .home{
+        justify-content: center;
+        align-items: center;
+    }
+    .homeButton{
+        margin-left: 0px;
+        border-radius: 10px;
+        padding: 10px;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,30 @@
+.aboutUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageAbout{
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+.imageAbout img{
+ width: 70%;
+}
+
+.image img{
+    width: 70%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.content h1{
+    
+}
+
