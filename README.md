@@ -8,4 +8,3 @@ Projeeyi incelemek için [buraya](https://stirring-melba-55788d.netlify.app) tı
 
 
 
-
